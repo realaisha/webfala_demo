@@ -72,6 +72,9 @@ class ExpenseTracker:
         """
         return sum(expense.amount for expense in self.expenses)
 
+    def delete(self):
+        pass
+
 tracker = ExpenseTracker()
 while True:
     print ('\nExpense Tracker')
